@@ -1,61 +1,29 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+Notes on learning Laravel
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+TL;DR: to test out the login page, go to: 
+link: khoo.website 
+username: zus@coffee.com
+password: zuscoffee
+There are 5 profiles created, and the link to ZUS coffee's page would be 
+khoo.website/profile/5. The 4 remaining is khoo.website/profile/#, replacing the # with 1, 2, 3, or 4. 
 
-## About Laravel
+For this job opportunity and my curiosity on why to use a framework, I decided to pick up Laravel and went through the tutorial offered by freeCodeCamp. 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+My initial understanding is web framework helps to abstract away the need to set your file directories and dependencies, hence encourage you to focus on just sprinting through an initial build of working app. A consistent file structure also helps other programmers to understand which part to look into to fix certain bugs. There are also libraries at your disposal, like the authentication package that saves us time. The framework practices a kind of software design pattern, which for Laravel's case is an MVC design pattern. 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Following the tutorial, I built an Instagram clone and called it freeCodeGram. 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The functionalities of freeCodeGram includes: 
+ - Adding a new post with a caption
+ - Following 
+ - Unfollowing
+ - Editing profile
+ - Changing the profile image
+ - Resizing photos using Intervention
+ - Authentication (Logging in) 
+ - Registering for new users 
 
-## Learning Laravel
+Going through the process, my biggest yield will be practicing writing a web app using MVC. This helps to modularize Model (data manipulation, logic, etc), Views (what you see, updated by Model), and Controller (getting input from users and routing into Model to decide what to show on View). I also get to learn how to write a RESTful resource controller, passing the data to the view. This is beneficial for when I am writing the API for ZUS. Next key thing is to handle the many to many relationships among Profiles, and when correctly done, all the data on View can be dynamically generated. To resolve the N+1 problem that is caused by the query in prior, I made use of Cache. 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Overall, it was a life-changing step in my software development career because Laravel demands me to think about its highly opinionated grammar and syntax. In my coming projects, I will think in terms of MVC and I thank you, the one who is reading, for the opportunity to sharpen my skill. Hopefully, we'll be working together soon. :) 
+(also, ftp is taking way too long) 
