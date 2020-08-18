@@ -1,9 +1,13 @@
-Notes on learning Laravel
+<strong>Notes on learning Laravel</strong>
 
-TL;DR: to test out the login page, go to: 
+<strong>TL;DR</strong>: to test out the login page, go to: 
+
 link: khoo.website 
+
 username: zus@coffee.com
+
 password: zuscoffee
+
 There are 5 profiles created, and the link to ZUS coffee's page would be 
 khoo.website/profile/5. The 4 remaining is khoo.website/profile/#, replacing the # with 1, 2, 3, or 4. 
 
