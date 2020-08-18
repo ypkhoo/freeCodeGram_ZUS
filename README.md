@@ -1,5 +1,3 @@
-<strong>Notes on learning Laravel</strong>
-
 <strong>TL;DR</strong>: 
 
 To test out the login page, go to: 
@@ -12,6 +10,8 @@ password: zuscoffee
 
 There are 5 profiles created, and the link to ZUS coffee's page would be 
 khoo.website/profile/5. The 4 remaining is khoo.website/profile/#, replacing the # with 1, 2, 3, or 4. 
+
+<strong>Notes on learning Laravel</strong>
 
 For this job opportunity and my curiosity on why to use a framework, I decided to pick up Laravel and went through the tutorial offered by freeCodeCamp. 
 
