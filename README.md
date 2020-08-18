@@ -1,6 +1,7 @@
 <strong>Notes on learning Laravel</strong>
 
 <strong>TL;DR</strong>: 
+
 To test out the login page, go to: 
 
 link: khoo.website 
